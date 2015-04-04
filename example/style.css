@@ -49,3 +49,20 @@ header {
     position: absolute;
     z-index: 2000;
 }
+
+.puls-tour__point_tooltip-visible {
+    background-color: transparent;
+}
+
+.puls-tour__tooltip {
+    display: none;
+    max-width: 340px;
+    background-color: #fff;
+    padding: 5px 10px;
+    position: absolute;
+    box-shadow: rgba(0,0,0, 0.3) 0 2px 5px;
+}
+
+.puls-tour__point_tooltip-visible .puls-tour__tooltip {
+    display: block;
+}
